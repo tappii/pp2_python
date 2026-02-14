@@ -5,9 +5,9 @@ if(a < b):
 else:
      print("a is greater than or equal to b")
 
-name = "Danial"
-if name == "Danial":
-     print("Hello Danial!")
+name = "Ramazan"
+if name == "Ramazan":
+     print("Hello Ramazan!")
 else:
      print("Hello, who are you?")
 
