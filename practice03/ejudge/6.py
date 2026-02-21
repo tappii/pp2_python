@@ -1,3 +1,8 @@
-x = int(input())
-y = int(input())
-print(x * y)
+
+length, width = map(int, input().split())
+
+
+area = length * width
+
+
+print(area)

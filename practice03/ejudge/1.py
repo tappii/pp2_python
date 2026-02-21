@@ -1,8 +1,8 @@
 x = int(input())
-valid = False
+valid = True
 while x > 0:
-    if(x%10)%2==0:
-        valid = True
+    if(x%10)%2!=0:
+        valid = False
         break
     x//=10
 
