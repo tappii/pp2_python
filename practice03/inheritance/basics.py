@@ -1,9 +1,8 @@
 class animal:
-     def __init__(self, type):
+    def __init__(self, type, paw):
           self.type = type
-
-class my_animal(animal):
-     pass 
-
-my_dog = my_animal("rocky")
-print(my_dog.type)
+          self.paw = paw
+    def getinfo(self):
+        print(self.type,self.paw)
+chicken = animal("chicken", 2)
+chicken.getinfo()
