@@ -1,4 +1,4 @@
-def squeres(n):
+def squares(n):
      for i in range(n+1):
           yield i**2
 
@@ -12,7 +12,7 @@ def throur(n):
           if i % 3 == 0 and i % 4 == 0:
                yield i
 
-def AsqueresB(a, b):
+def AsquaresB(a, b):
      for i in range(a, b+1):
           yield i**2
 
@@ -21,7 +21,7 @@ def all(n):
           yield i
 
 #1
-ans = squeres(int(input("Input number: ")))
+ans = squares(int(input("Input number: ")))
 for i in ans:
      print(i, end=" ")
 print()
@@ -39,7 +39,7 @@ for i in ans:
 print()
 
 #4
-ans = AsqueresB(int(input("Input first number: ")), int(input("Input second number: ")))
+ans = AsquaresB(int(input("Input first number: ")), int(input("Input second number: ")))
 for i in ans:
      print(i, end=" ")
 print()

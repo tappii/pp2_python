@@ -14,7 +14,7 @@ print(f"Expected Output: {((b + c) * a) / 2}")
 #3
 a = int(input("Input number of sides: "))
 b = int(input("Input the length of a side: "))
-print(f"The area of the polygon is: {(a * (b ** 2)) // (4 * m.tan(m.pi / a))}")
+print(f"The area of the polygon is: {(a * (b ** 2)) / (4 * m.tan(m.pi / a))}")
 
 #4
 a = int(input("Length of base: "))
